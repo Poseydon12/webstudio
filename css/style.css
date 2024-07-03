@@ -485,6 +485,16 @@ body {
   justify-content: center;
 }
 
+.social-footer-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .social-footer-item:hover {
   background-color: #2196f3;
   border-radius: 50%;
@@ -521,12 +531,19 @@ body {
   background: rgba(33, 150, 243, 0);
 }
 
+.footer-form {
+  display: flex;
+}
+
 .subscribe-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.06em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 12px;
   color: #fff;
   border: none;
