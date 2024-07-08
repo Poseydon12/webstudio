@@ -437,7 +437,6 @@ body {
 }
 
 .footer-list {
-
 }
 
 .footer-link {
@@ -765,7 +764,35 @@ body {
 }
 
 .project-item:hover {
-  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.project-item:hover .project-overlay .overlay-text {
+  transform: translateY(0%);
+}
+
+.project-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-text {
+  height: 294px;
+  padding: 63px 24px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  background: rgba(33, 150, 243, 0.9);
+}
+
+.overlay-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 .project-title {
