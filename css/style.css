@@ -14,6 +14,11 @@
   padding: 0 15px;
 }
 
+:hover {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 button {
   cursor: pointer;
 }
@@ -119,22 +124,14 @@ body {
   color: var(--accent-color);
 }
 
-.nav-link::after {
+.nav-link:hover::after {
   position: absolute;
-  top: 30px;
+  top: 45px;
   content: "";
   display: block;
   width: 100%;
-  height: 3px;
+  height: 4px;
   background-color: var(--accent-color);
-  opacity: 0;
-  transition: opacity 500ms ease, tranform 500ms ease;
-  transform: scaleX(0);
-}
-
-.nav-link:hover::after {
-  opacity: 1;
-  transform: scaleX(1);
 }
 
 .contacts {
@@ -159,6 +156,10 @@ body {
 
 .contact-link:hover {
   color: #2196f3;
+}
+
+.contact-link:hover .contact-link-icon {
+  fill: #2196f3;
 }
 
 .contact-link-icon {
@@ -223,6 +224,14 @@ body {
   letter-spacing: 0.42px;
   margin-bottom: 10px;
   color: #212121;
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .features-icon-wrapper {
@@ -306,15 +315,18 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .team-item {
-  /* width: 270px; */
   flex-basis: calc((100% - 90px) / 4);
-  height: 428px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-item article {
+  padding: 30px 0;
+  background-color: #fff;
 }
 
 .team-position {
@@ -713,6 +725,8 @@ body {
   text-align: center;
   color: #fff;
 }
+
+/* портфоліо */
 
 .project-section {
   padding-top: 94px;
