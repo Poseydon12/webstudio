@@ -1,0 +1,44 @@
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.our-clients-list {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  column-gap: 30px;
+}
+
+.our-clients-item {
+  width: 170px;
+  height: 102px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-clients-item:hover {
+  border: 1px solid #2196f3;
+}
+
+.our-clients-logo {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.our-clients-item:hover .our-clients-logo {
+  fill: #2196f3;
+}

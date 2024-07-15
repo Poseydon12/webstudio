@@ -1,0 +1,154 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bg-color);
+}
+
+.footer-position {
+  display: flex;
+}
+
+.footer-box-link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-logo-studio {
+  color: #fff;
+}
+
+.footer-contacts {
+  font-style: normal;
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+  color: #fff;
+  width: 220px;
+}
+
+.footer-list {
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link + .footer-link {
+  margin-top: 9px;
+}
+
+.social-footer-position {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-socials {
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.social-footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.social-footer-list {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.social-footer-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-footer-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-footer-item:hover {
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+
+.social-footer-item:hover .social-icon {
+  fill: #fff;
+}
+
+.social-footer-icon {
+  fill: white;
+}
+
+.subscribe {
+  margin-left: 93px;
+  margin-top: 12px;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-subscribe-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+}
+
+.footer-form {
+  display: flex;
+}
+
+.subscribe-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+}
+
+.subcribe-telegram-icon {
+  margin-left: 10px;
+}
