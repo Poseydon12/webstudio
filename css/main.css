@@ -48,11 +48,6 @@ a {
   --second-family: "Raleway";
 }
 
-:hover {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -105,6 +100,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -141,6 +137,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover {
@@ -183,6 +180,7 @@ body {
   margin-right: auto;
   border: none;
   background-color: var(--accent-color);
+  border-radius: 4px;
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -265,6 +263,7 @@ body {
 
 .modal-input-wrapper {
   position: relative;
+  width: 440px;
   margin-bottom: 10px;
   padding-left: 1px;
 }
@@ -272,41 +271,23 @@ body {
 .modal-input-field {
   width: 448px;
   height: 40px;
+  padding-left: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
 }
 
-.modal-input-field:hover {
+.modal-input-field:focus {
   border: 1px solid #2196f3;
 }
 
-.modal-input-field:hover ~ .modal-input-name {
+.modal-input-field:focus ~ .modal-input-icon {
   fill: #2196f3;
 }
 
-.modal-input-field:hover ~ .modal-input-phone {
-  fill: #2196f3;
-}
-
-.modal-input-field:hover ~ .modal-input-email {
-  fill: #2196f3;
-}
-
-.modal-input-name {
+.modal-input-icon {
   position: absolute;
   top: 13px;
-  left: 12px;
-}
-
-.modal-input-phone {
-  position: absolute;
-  top: 14px;
-  left: 12px;
-}
-
-.modal-input-email {
-  position: absolute;
-  top: 10px;
   left: 12px;
 }
 
@@ -467,6 +448,7 @@ body {
 
 .team-item {
   flex-basis: calc((100% - 90px) / 4);
+  border-radius: 0 0 8px 8px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -498,8 +480,19 @@ body {
 .social-item {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
   justify-content: center;
 }
 
@@ -546,6 +539,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-clients-item:hover {
@@ -628,6 +622,7 @@ body {
 
 .social-footer-list {
   display: flex;
+  justify-content: center;
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
@@ -636,9 +631,11 @@ body {
 .social-footer-item {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-footer-link {
