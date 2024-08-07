@@ -1,9 +1,9 @@
-.project-section {
+.project__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.filter-list {
+.filter__list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,11 +11,11 @@
   margin-bottom: 50px;
 }
 
-.filter-item {
+.filter__item {
   margin-right: 8px;
 }
 
-.filter-btn {
+.filter__btn {
   border-radius: 4px;
   border: none;
   padding: 6px 25px;
@@ -27,43 +27,43 @@
   color: #212121;
 }
 
-.filter-btn:hover {
-  background-color: #2196f3;
-  color: #fff;
+.filter__btn:hover {
+  background-color: $accent-color;
+  color: $info-color;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.project-list {
+.project__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.project-item {
+.project__item {
   flex-basis: calc((100% - 60px) / 3);
   width: 370px;
   height: 404px;
   border: 1px solid #eee;
 }
 
-.project-item:hover,
-.project-item::focus {
+.project__item:hover,
+.project__item::focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
-.project-item:hover .overlay-text {
+.project__item:hover .overlay__text {
   transform: translateY(0%);
 }
 
-.project-overlay {
+.project__overlay {
   position: relative;
   overflow: hidden;
 }
 
-.overlay-text {
+.overlay__text {
   height: 294px;
   padding: 63px 24px;
   position: absolute;
@@ -75,24 +75,24 @@
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: $info-color;
 }
 
-.project-title {
+.project__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: $main-color;
   margin-left: 24px;
   margin-top: 20px;
 }
 
-.project-type {
+.project__type {
   font-weight: 400;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $text-color;
   margin-left: 24px;
 }

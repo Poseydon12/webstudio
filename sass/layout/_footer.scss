@@ -1,40 +1,32 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--bg-color);
+  background-color: $bg-color;
 }
 
-.footer-position {
+.footer__position {
   display: flex;
 }
 
-.footer-box-link {
-  display: block;
-  margin-bottom: 20px;
-}
-
-.footer-logo-studio {
-  color: #fff;
-}
-
-.footer-contacts {
+.footer__contacts {
+  margin-top: 20px;
   font-style: normal;
 }
 
-.footer-address {
+.footer__address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-bottom: 4px;
-  color: #fff;
+  color: $info-color;
   width: 220px;
 }
 
-.footer-list {
+.footer__list {
 }
 
-.footer-link {
+.footer__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -42,37 +34,37 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link + .footer-link {
+.footer__link + .footer__link {
   margin-top: 9px;
 }
 
-.social-footer-position {
+.social--footer__position {
   display: flex;
   flex-direction: column;
 }
 
-.footer-socials {
+.footer__socials {
   margin-left: 70px;
   margin-top: 12px;
 }
 
-.social-footer-title {
+.social--footer__title {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #fff;
+  color: $section-bg-color;
 }
 
-.social-footer-list {
+.social--footer__list {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 10px;
 }
 
-.social-footer-item {
+.social--footer__item {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -82,7 +74,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-footer-link {
+.social--footer__link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -92,17 +84,17 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-footer-item:hover {
-  background-color: #2196f3;
+.social--footer__item:hover {
+  background-color: $accent-color;
   border-radius: 50%;
 }
 
-.social-footer-item:hover .social-icon {
-  fill: #fff;
+.social--footer__item:hover .social-icon {
+  fill: $section-bg-color;
 }
 
-.social-footer-icon {
-  fill: white;
+.social--footer__icon {
+  fill: $section-bg-color;
 }
 
 .subscribe {
@@ -110,16 +102,16 @@
   margin-top: 12px;
 }
 
-.subscribe-title {
+.subscribe__title {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #fff;
+  color: $section-bg-color;
   margin-bottom: 20px;
 }
 
-.footer-subscribe-input {
+.footer--subscribe__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   width: 358px;
@@ -129,11 +121,11 @@
   background: rgba(33, 150, 243, 0);
 }
 
-.footer-form {
+.footer__form {
   display: flex;
 }
 
-.subscribe-button {
+.subscribe__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
@@ -143,15 +135,15 @@
   justify-content: center;
   align-items: center;
   margin-left: 12px;
-  color: #fff;
+  color: $info-color;
   border: none;
   border-radius: 4px;
   width: 200px;
   height: 50px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #2196f3;
+  background: $accent-color;
 }
 
-.subcribe-telegram-icon {
+.subcribe--telegram__icon {
   margin-left: 10px;
 }

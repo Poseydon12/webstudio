@@ -1,30 +1,30 @@
-.services-section {
+.services__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.services-title {
+.services__title {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: $main-color;
   margin-bottom: 50px;
 }
 
-.services-list {
+.services__list {
   display: flex;
   column-gap: 30px;
   margin-top: 50px;
 }
 
-.services-item {
+.services__item {
   position: relative;
   text-align: center;
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.service-offer-title {
+.service--offer__title {
   width: 100%;
   height: 70px;
   text-transform: uppercase;
@@ -35,7 +35,7 @@
   padding-bottom: 27px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: $info-color;
   font-size: 14px;
   font-weight: bold;
 }
