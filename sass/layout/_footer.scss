@@ -38,7 +38,7 @@
   margin-top: 9px;
 }
 
-.social--footer__position {
+.social__footer--position {
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +48,7 @@
   margin-top: 12px;
 }
 
-.social--footer__title {
+.social__footer--title {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -57,14 +57,14 @@
   color: $section-bg-color;
 }
 
-.social--footer__list {
+.social__footer--list {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 10px;
 }
 
-.social--footer__item {
+.social__footer--item {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -74,7 +74,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social--footer__link {
+.social__footer--link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -84,16 +84,16 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social--footer__item:hover {
+.social__footer--item:hover {
   background-color: $accent-color;
   border-radius: 50%;
 }
 
-.social--footer__item:hover .social-icon {
+.social__footer--item:hover .social__icon {
   fill: $section-bg-color;
 }
 
-.social--footer__icon {
+.social__footer--icon {
   fill: $section-bg-color;
 }
 
@@ -111,7 +111,7 @@
   margin-bottom: 20px;
 }
 
-.footer--subscribe__input {
+.footer__subscribe--input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   width: 358px;
@@ -144,6 +144,6 @@
   background: $accent-color;
 }
 
-.subcribe--telegram__icon {
+.subcribe__telegram--icon {
   margin-left: 10px;
 }
