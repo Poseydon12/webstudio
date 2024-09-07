@@ -1,7 +1,7 @@
-.our__clients {
+.our-clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  .our__clients--title {
+  .our-clients__title {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
@@ -10,12 +10,12 @@
     margin-bottom: 50px;
   }
   
-  .our__clients--list {
+  .our-clients__list {
     display: flex;
     align-items: center;
     column-gap: 30px;
 
-    .our__clients--item {
+    .our-clients__item {
       width: 170px;
       height: 102px;
       border: 1px solid #afb1b8;
@@ -29,7 +29,7 @@
         border: 1px solid #2196f3;
       }
 
-      .our__clients--logo {
+      .our-clients__logo {
         width: 106px;
         height: 60px;
         fill: #afb1b8;
