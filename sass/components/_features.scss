@@ -29,9 +29,10 @@
   }
 
   .features-list__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    @extend %flex;
     width: 270px;
     height: 120px;
     background-color: $section-bg-color;

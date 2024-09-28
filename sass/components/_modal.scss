@@ -36,9 +36,10 @@
   .button-close {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @extend %flex;
     background-color: transparent;
     position: absolute;
     left: 490px;
@@ -128,15 +129,16 @@
     margin: 0 auto;
     display: block;
     margin-top: 30px;
-    border: none;
-    border-radius: 4px;
+    // border: none;
+    // border-radius: 4px;
+    @include colored-button(200px);
     background-color: $accent-color;
     padding: 10px 52px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    text-align: center;
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: 1.87;
+    // letter-spacing: 0.06em;
+    // text-align: center;
     color: #fff;
   }
 }

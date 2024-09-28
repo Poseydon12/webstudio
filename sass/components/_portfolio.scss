@@ -3,9 +3,10 @@
   padding-bottom: 94px;
 
   .filter__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @extend %flex;
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -56,6 +57,7 @@
   .project__overlay {
     position: relative;
     overflow: hidden;
+
     .overlay__text {
       height: 294px;
       padding: 63px 24px;
@@ -70,6 +72,7 @@
       letter-spacing: 0.03em;
       color: $info-color;
     }
+    
   }
   .project__title {
     font-weight: 700;

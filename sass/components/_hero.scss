@@ -15,7 +15,7 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    color: #fff;
+    color: $info-color
   }
 
   .hero__button {
@@ -23,15 +23,18 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    border: none;
+    // border: none;
     background-color: $accent-color;
-    border-radius: 4px;
-    padding: 10px 32px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #fff;
+    // width: 216px;
+    // height: 50px;
+    // border-radius: 4px;
+    @include colored-button(216px);
+    padding: 10px 31px;
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: 1.87;
+    // letter-spacing: 0.06em;
+    // text-align: center;
+    color: $info-color;
   }
 }

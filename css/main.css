@@ -58,6 +58,12 @@ body {
   margin: 0 auto;
 }
 
+.project__section .filter__list, .subscribe__button, .social__footer--link, .social__footer--item, .modal .button-close, .our-clients .our-clients__list .our-clients__item, .our__team .social__link, .our__team .social__item, .our__team .social__list, .features .features-list__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   padding-bottom: 25px;
   padding-top: 24px;
@@ -173,23 +179,25 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 .hero .hero__button {
   display: block;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  border: none;
   background-color: #2196f3;
-  border-radius: 4px;
-  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #fff;
+  border: none;
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 31px;
+  color: #ffffff;
 }
 
 .features {
@@ -220,9 +228,6 @@ body {
   color: #757575;
 }
 .features .features-list__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -316,9 +321,6 @@ body {
   margin-bottom: 10px;
 }
 .our__team .social__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
@@ -326,9 +328,6 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our__team .social__item:hover {
@@ -342,9 +341,6 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 .our__team .social__icon {
   fill: #757575;
@@ -373,9 +369,6 @@ body {
   height: 102px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-clients .our-clients__list .our-clients__item:hover {
@@ -426,9 +419,6 @@ body {
 .modal .button-close {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: transparent;
   position: absolute;
   left: 490px;
@@ -505,15 +495,17 @@ body {
   margin: 0 auto;
   display: block;
   margin-top: 30px;
-  border: none;
-  border-radius: 4px;
-  background-color: #2196f3;
-  padding: 10px 52px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  padding: 10px 52px;
   color: #fff;
 }
 
@@ -585,18 +577,12 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social__footer--link {
   width: 44px;
   height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -643,20 +629,17 @@ body {
 }
 
 .subscribe__button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 187%;
-  letter-spacing: 0.06em;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: 12px;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
   border: none;
-  border-radius: 4px;
   width: 200px;
   height: 50px;
+  border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2196f3;
 }
@@ -670,9 +653,6 @@ body {
   padding-bottom: 94px;
 }
 .project__section .filter__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }

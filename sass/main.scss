@@ -1,6 +1,8 @@
 @import "base/reset";
 @import "base/typography";
 @import "./base/variables";
+@import "abstarcts/mixin";
+@import "abstarcts/placeholder";
 @import './layout/header';
 @import "components/hero";
 @import "components/features";

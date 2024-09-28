@@ -1,6 +1,7 @@
 .services__section {
   padding-top: 94px;
   padding-bottom: 94px;
+
   .services__title {
     font-weight: 700;
     font-size: 36px;
@@ -9,6 +10,7 @@
     color: $main-color;
     margin-bottom: 50px;
   }
+
   .services__list {
     display: flex;
     column-gap: 30px;
@@ -19,6 +21,7 @@
       flex-basis: calc((100% - 60px) / 3);
     }
   }
+  
   .service-list__title {
     width: 100%;
     height: 70px;
