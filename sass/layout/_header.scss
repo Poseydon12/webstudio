@@ -1,21 +1,29 @@
 .header {
-  padding-bottom: 25px;
-  padding-top: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 25px;
+    padding-top: 24px;
+  }
   border: 1px solid #ececec;
 }
 
 .header__position {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
   font-family: $second-family;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: 0.03em;
   color: #2196f3;
   display: block;
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
 }
 
 .logo__web {
@@ -31,9 +39,15 @@
 }
 
 .nav__list {
-  display: flex;
-  margin-left: 93px;
-  column-gap: 50px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: 87px;
+    column-gap: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
 }
 
 .nav__link {
@@ -62,9 +76,18 @@
 }
 
 .contacts {
-  display: flex;
-  margin-left: auto;
-  column-gap: 50px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    row-gap: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    column-gap: 50px;
+    flex-direction: row;
+  }
 }
 
 .contacts__item {
@@ -92,4 +115,12 @@
 .contacts__icon {
   fill: $text-color;
   margin-right: 10px;
+}
+
+.menu-open {
+  border: none;
+  background-color: transparent;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
